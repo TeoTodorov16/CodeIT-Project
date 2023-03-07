@@ -1,0 +1,23 @@
+/* Style the form label and input */
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style the form submit button */
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the form error message */
+.error-message {
+  color: red;
+}
